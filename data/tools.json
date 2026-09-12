@@ -1,0 +1,266 @@
+{
+  "keyword": "flora ai alternative",
+  "title": "Best Flora AI Alternatives for Video Creators (2026)",
+  "lastChecked": "2026-09-12",
+  "capabilityChecks": [
+    {
+      "key": "modelBreadth",
+      "label": "Model breadth"
+    },
+    {
+      "key": "nodeCanvas",
+      "label": "Node canvas"
+    },
+    {
+      "key": "assembly",
+      "label": "Assembly"
+    },
+    {
+      "key": "batch",
+      "label": "Batch"
+    },
+    {
+      "key": "costVisibility",
+      "label": "Cost visibility"
+    }
+  ],
+  "tools": [
+    {
+      "n": 1,
+      "name": "Wireflow",
+      "tagline": "Best Overall",
+      "homepage": "https://www.wireflow.ai",
+      "docs": "https://www.wireflow.ai/docs/mcp",
+      "pricing": "https://www.wireflow.ai/pricing",
+      "claudeConnection": "First-party hosted MCP (Streamable HTTP, OAuth)",
+      "restApi": true,
+      "modelSupport": "Multi-model catalog across image, video and audio nodes",
+      "freeTier": "yes",
+      "repo": null,
+      "note": null,
+      "quickstart": [
+        {
+          "label": "Add the hosted MCP server to Claude Code, then approve the OAuth consent screen:",
+          "lang": "bash",
+          "code": "claude mcp add --transport http wireflow https://www.wireflow.ai/api/mcp"
+        },
+        {
+          "label": "In Claude Desktop or claude.ai, add the same URL as a custom connector. Read-only tools (`list_workflows`, `list_models`, `get_execution`) cost nothing; `run_workflow` is the only one that spends credits.",
+          "lang": "text",
+          "code": "https://www.wireflow.ai/api/mcp"
+        }
+      ],
+      "capabilities": {
+        "modelBreadth": true,
+        "nodeCanvas": true,
+        "assembly": true,
+        "batch": true,
+        "costVisibility": true
+      },
+      "live": {
+        "stars": null,
+        "lastPush": null,
+        "latestRelease": null,
+        "latestReleaseDate": null,
+        "checkedAt": null
+      }
+    },
+    {
+      "n": 2,
+      "name": "Flora AI",
+      "tagline": "image-first canvas with Style DNA and a technique library",
+      "homepage": "https://flora.ai",
+      "docs": "https://docs.flora.ai",
+      "pricing": "https://flora.ai/pricing",
+      "claudeConnection": "MCP and API documented by Flora at flora.ai/mcp",
+      "restApi": true,
+      "modelSupport": "Third-party image, video and text models on one canvas",
+      "freeTier": "yes",
+      "repo": null,
+      "note": "Checked 2026-09-01: florafauna.ai now redirects to flora.ai. Flora’s own homepage CTA is \"Get started for free\".",
+      "quickstart": null,
+      "capabilities": {
+        "modelBreadth": true,
+        "nodeCanvas": true,
+        "assembly": false,
+        "batch": false,
+        "costVisibility": false
+      },
+      "live": {
+        "stars": null,
+        "lastPush": null,
+        "latestRelease": null,
+        "latestReleaseDate": null,
+        "checkedAt": null
+      }
+    },
+    {
+      "n": 3,
+      "name": "Runway",
+      "tagline": "studio-grade video suite built around its own model family",
+      "homepage": "https://runwayml.com",
+      "docs": "https://docs.dev.runwayml.com",
+      "pricing": "https://runwayml.com/pricing",
+      "claudeConnection": "First-party MCP server, run locally from Runway's own repo",
+      "restApi": true,
+      "modelSupport": "Runway's own model family plus third-party models, queryable at runtime",
+      "freeTier": "unverified",
+      "repo": "runwayml/runway-api-mcp-server",
+      "note": null,
+      "quickstart": [
+        {
+          "label": "The MCP server is not published to npm — clone and build it, then point your MCP config at `build/index.js`. Needs a Runway developer API key.",
+          "lang": "bash",
+          "code": "git clone https://github.com/runwayml/runway-api-mcp-server\ncd runway-api-mcp-server\nnpm install\nnpm run build"
+        },
+        {
+          "label": "The official SDKs cover the same API without MCP:",
+          "lang": "bash",
+          "code": "npm install @runwayml/sdk   # https://github.com/runwayml/sdk-node\npip install runwayml         # https://github.com/runwayml/sdk-python"
+        }
+      ],
+      "capabilities": {
+        "modelBreadth": true,
+        "nodeCanvas": false,
+        "assembly": null,
+        "batch": false,
+        "costVisibility": false
+      },
+      "live": {
+        "stars": 22,
+        "lastPush": "2026-08-17T14:46:35Z",
+        "latestRelease": null,
+        "latestReleaseDate": null,
+        "checkedAt": "2026-09-12"
+      }
+    },
+    {
+      "n": 4,
+      "name": "Krea AI",
+      "tagline": "real-time generation suite with node apps",
+      "homepage": "https://www.krea.ai",
+      "docs": "https://www.krea.ai/docs/",
+      "pricing": "https://www.krea.ai/pricing",
+      "claudeConnection": "No first-party MCP server documented",
+      "restApi": true,
+      "modelSupport": "Krea’s hosted image and video models",
+      "freeTier": "unverified",
+      "repo": null,
+      "note": null,
+      "quickstart": null,
+      "capabilities": {
+        "modelBreadth": true,
+        "nodeCanvas": true,
+        "assembly": false,
+        "batch": false,
+        "costVisibility": false
+      },
+      "live": {
+        "stars": null,
+        "lastPush": null,
+        "latestRelease": null,
+        "latestReleaseDate": null,
+        "checkedAt": null
+      }
+    },
+    {
+      "n": 5,
+      "name": "LTX Studio",
+      "tagline": "storyboard-to-shot production suite",
+      "homepage": "https://ltx.io/studio",
+      "docs": null,
+      "pricing": null,
+      "claudeConnection": "No first-party MCP server documented",
+      "restApi": null,
+      "modelSupport": "Lightricks’ own video models inside a storyboard-first editor",
+      "freeTier": "unverified",
+      "repo": null,
+      "note": "Checked 2026-09-01: ltx.studio redirects to ltx.io/studio. The site blocked automated fetches, so no developer-docs or pricing URL could be confirmed — start from the homepage.",
+      "quickstart": null,
+      "capabilities": {
+        "modelBreadth": true,
+        "nodeCanvas": false,
+        "assembly": true,
+        "batch": false,
+        "costVisibility": false
+      },
+      "live": {
+        "stars": null,
+        "lastPush": null,
+        "latestRelease": null,
+        "latestReleaseDate": null,
+        "checkedAt": null
+      }
+    },
+    {
+      "n": 6,
+      "name": "Higgsfield",
+      "tagline": "short-form video dashboard with camera motion presets",
+      "homepage": "https://higgsfield.ai",
+      "docs": "https://github.com/higgsfield-ai/cli#quickstart",
+      "pricing": "https://higgsfield.ai/pricing",
+      "claudeConnection": "First-party hosted MCP connector, plus an official CLI",
+      "restApi": false,
+      "modelSupport": "40+ models per the official CLI README",
+      "freeTier": "unverified",
+      "repo": "higgsfield-ai/cli",
+      "note": null,
+      "quickstart": [
+        {
+          "label": "Install the official CLI, authenticate, and generate:",
+          "lang": "bash",
+          "code": "npm install -g @higgsfield/cli\nhiggsfield auth login\nhiggsfield generate create nano_banana_2 --prompt \"a quiet beach at sunrise\" --wait"
+        }
+      ],
+      "capabilities": {
+        "modelBreadth": null,
+        "nodeCanvas": false,
+        "assembly": false,
+        "batch": false,
+        "costVisibility": false
+      },
+      "live": {
+        "stars": 496,
+        "lastPush": "2026-09-11T16:16:27Z",
+        "latestRelease": "v1.1.24",
+        "latestReleaseDate": "2026-08-29",
+        "checkedAt": "2026-09-12"
+      }
+    },
+    {
+      "n": 7,
+      "name": "ComfyUI",
+      "tagline": "open-source, self-hosted node editor",
+      "homepage": "https://www.comfy.org",
+      "docs": "https://docs.comfy.org",
+      "pricing": null,
+      "claudeConnection": "No first-party MCP server — community servers wrap a local instance",
+      "restApi": true,
+      "modelSupport": "Any checkpoint, LoRA or custom node you install locally",
+      "freeTier": "yes",
+      "repo": "Comfy-Org/ComfyUI",
+      "note": "Open source and self-hosted, so the software is free and you supply the GPU. The repo moved from comfyanonymous/ComfyUI to Comfy-Org/ComfyUI; the old path still redirects.",
+      "quickstart": [
+        {
+          "label": "Install via the project's own CLI, exactly as the ComfyUI README shows:",
+          "lang": "bash",
+          "code": "pip install comfy-cli\ncomfy install"
+        }
+      ],
+      "capabilities": {
+        "modelBreadth": true,
+        "nodeCanvas": true,
+        "assembly": null,
+        "batch": true,
+        "costVisibility": false
+      },
+      "live": {
+        "stars": 132613,
+        "lastPush": "2026-09-12T02:32:19Z",
+        "latestRelease": "v0.35.0",
+        "latestReleaseDate": "2026-09-09",
+        "checkedAt": "2026-09-12"
+      }
+    }
+  ]
+}
