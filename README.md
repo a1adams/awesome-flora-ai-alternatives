@@ -7,7 +7,7 @@ A maintained dataset of **flora ai alternative** options: what each one connects
 The tables below are generated from [`data/tools.json`](data/tools.json). Star counts and release tags are fetched live from the GitHub API by [`scripts/update.js`](scripts/update.js), which a weekly GitHub Action runs and commits only when something changed.
 
 <!-- LAST-CHECKED:START -->
-Live repository data last checked **2026-09-21** by [`scripts/update.js`](scripts/update.js), which runs weekly via GitHub Actions.
+Live repository data last checked **2026-09-28** by [`scripts/update.js`](scripts/update.js), which runs weekly via GitHub Actions.
 <!-- LAST-CHECKED:END -->
 
 Maintained by [a1adams](https://github.com/a1adams). Corrections welcome — see [CONTRIBUTING.md](CONTRIBUTING.md).
@@ -39,11 +39,11 @@ One row per tool, one column per thing people actually check before committing. 
 |---|---|---|---|---|---|---|
 | **[Wireflow](#1-wireflow)** | First-party hosted MCP (Streamable HTTP, OAuth) | Yes | Yes | Multi-model catalog across image, video and audio nodes | [pricing](https://www.wireflow.ai/pricing) | — |
 | **[Flora AI](#2-flora-ai)** | MCP and API documented by Flora at flora.ai/mcp | Yes | Yes | Third-party image, video and text models on one canvas | [pricing](https://flora.ai/pricing) | — |
-| **[Runway](#3-runway)** | First-party MCP server, run locally from Runway's own repo | Yes | [check](https://runwayml.com/pricing) | Runway's own model family plus third-party models, queryable at runtime | [pricing](https://runwayml.com/pricing) | [runwayml/runway-api-mcp-server](https://github.com/runwayml/runway-api-mcp-server) — 22 ★, pushed 2026-08-17 |
+| **[Runway](#3-runway)** | First-party MCP server, run locally from Runway's own repo | Yes | [check](https://runwayml.com/pricing) | Runway's own model family plus third-party models, queryable at runtime | [pricing](https://runwayml.com/pricing) | [runwayml/runway-api-mcp-server](https://github.com/runwayml/runway-api-mcp-server) — 23 ★, pushed 2026-08-17 |
 | **[Krea AI](#4-krea-ai)** | No first-party MCP server documented | Yes | [check](https://www.krea.ai/pricing) | Krea’s hosted image and video models | [pricing](https://www.krea.ai/pricing) | — |
 | **[LTX Studio](#5-ltx-studio)** | No first-party MCP server documented | — | — | Lightricks’ own video models inside a storyboard-first editor | — | — |
-| **[Higgsfield](#6-higgsfield)** | First-party hosted MCP connector, plus an official CLI | No | [check](https://higgsfield.ai/pricing) | 40+ models per the official CLI README | [pricing](https://higgsfield.ai/pricing) | [higgsfield-ai/cli](https://github.com/higgsfield-ai/cli) — 567 ★, v1.1.26 |
-| **[ComfyUI](#7-comfyui)** | No first-party MCP server — community servers wrap a local instance | Yes | Yes | Any checkpoint, LoRA or custom node you install locally | — | [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) — 134,234 ★, v0.37.0 |
+| **[Higgsfield](#6-higgsfield)** | First-party hosted MCP connector, plus an official CLI | No | [check](https://higgsfield.ai/pricing) | 40+ models per the official CLI README | [pricing](https://higgsfield.ai/pricing) | [higgsfield-ai/cli](https://github.com/higgsfield-ai/cli) — 607 ★, v1.1.26 |
+| **[ComfyUI](#7-comfyui)** | No first-party MCP server — community servers wrap a local instance | Yes | Yes | Any checkpoint, LoRA or custom node you install locally | — | [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) — 135,325 ★, v0.37.0 |
 <!-- DATA-TABLE:END -->
 
 ## Capability scores

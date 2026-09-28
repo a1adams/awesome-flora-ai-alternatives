@@ -1,7 +1,7 @@
 {
   "keyword": "flora ai alternative",
   "title": "Best Flora AI Alternatives for Video Creators (2026)",
-  "lastChecked": "2026-09-21",
+  "lastChecked": "2026-09-28",
   "capabilityChecks": [
     {
       "key": "modelBreadth",
@@ -127,11 +127,11 @@
         "costVisibility": false
       },
       "live": {
-        "stars": 22,
+        "stars": 23,
         "lastPush": "2026-08-17T14:46:35Z",
         "latestRelease": null,
         "latestReleaseDate": null,
-        "checkedAt": "2026-09-21"
+        "checkedAt": "2026-09-28"
       }
     },
     {
@@ -220,11 +220,11 @@
         "costVisibility": false
       },
       "live": {
-        "stars": 567,
+        "stars": 607,
         "lastPush": "2026-09-18T23:39:48Z",
         "latestRelease": "v1.1.26",
         "latestReleaseDate": "2026-09-18",
-        "checkedAt": "2026-09-21"
+        "checkedAt": "2026-09-28"
       }
     },
     {
@@ -255,11 +255,11 @@
         "costVisibility": false
       },
       "live": {
-        "stars": 134234,
-        "lastPush": "2026-09-21T05:58:57Z",
+        "stars": 135325,
+        "lastPush": "2026-09-28T06:28:24Z",
         "latestRelease": "v0.37.0",
         "latestReleaseDate": "2026-09-21",
-        "checkedAt": "2026-09-21"
+        "checkedAt": "2026-09-28"
       }
     }
   ]
