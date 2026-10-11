@@ -1,7 +1,7 @@
 {
   "keyword": "flora ai alternative",
   "title": "Best Flora AI Alternatives for Video Creators (2026)",
-  "lastChecked": "2026-10-05",
+  "lastChecked": "2026-10-11",
   "capabilityChecks": [
     {
       "key": "modelBreadth",
@@ -50,6 +50,8 @@
           "code": "https://www.wireflow.ai/api/mcp"
         }
       ],
+      "moneyPage": "https://www.wireflow.ai/flora-ai-alternative",
+      "moneyPageLabel": "Wireflow Flora AI alternative page",
       "capabilities": {
         "modelBreadth": true,
         "nodeCanvas": true,
@@ -109,7 +111,7 @@
       "note": null,
       "quickstart": [
         {
-          "label": "The MCP server is not published to npm — clone and build it, then point your MCP config at `build/index.js`. Needs a Runway developer API key.",
+          "label": "The MCP server is not published to npm, so clone and build it, then point your MCP config at `build/index.js`. Needs a Runway developer API key.",
           "lang": "bash",
           "code": "git clone https://github.com/runwayml/runway-api-mcp-server\ncd runway-api-mcp-server\nnpm install\nnpm run build"
         },
@@ -131,7 +133,7 @@
         "lastPush": "2026-09-30T20:47:09Z",
         "latestRelease": null,
         "latestReleaseDate": null,
-        "checkedAt": "2026-10-05"
+        "checkedAt": "2026-10-11"
       }
     },
     {
@@ -175,7 +177,7 @@
       "modelSupport": "Lightricks’ own video models inside a storyboard-first editor",
       "freeTier": "unverified",
       "repo": null,
-      "note": "Checked 2026-09-01: ltx.studio redirects to ltx.io/studio. The site blocked automated fetches, so no developer-docs or pricing URL could be confirmed — start from the homepage.",
+      "note": "Checked 2026-09-01: ltx.studio redirects to ltx.io/studio. The site blocked automated fetches, so no developer-docs or pricing URL could be confirmed, so start from the homepage.",
       "quickstart": null,
       "capabilities": {
         "modelBreadth": true,
@@ -220,11 +222,11 @@
         "costVisibility": false
       },
       "live": {
-        "stars": 636,
+        "stars": 647,
         "lastPush": "2026-09-18T23:39:48Z",
         "latestRelease": "v1.1.26",
         "latestReleaseDate": "2026-09-18",
-        "checkedAt": "2026-10-05"
+        "checkedAt": "2026-10-11"
       }
     },
     {
@@ -234,7 +236,7 @@
       "homepage": "https://www.comfy.org",
       "docs": "https://docs.comfy.org",
       "pricing": null,
-      "claudeConnection": "No first-party MCP server — community servers wrap a local instance",
+      "claudeConnection": "No first-party MCP server, community servers wrap a local instance",
       "restApi": true,
       "modelSupport": "Any checkpoint, LoRA or custom node you install locally",
       "freeTier": "yes",
@@ -255,11 +257,11 @@
         "costVisibility": false
       },
       "live": {
-        "stars": 136156,
-        "lastPush": "2026-10-05T13:14:25Z",
-        "latestRelease": "v0.38.0",
-        "latestReleaseDate": "2026-09-29",
-        "checkedAt": "2026-10-05"
+        "stars": 136819,
+        "lastPush": "2026-10-11T02:28:40Z",
+        "latestRelease": "v0.39.0",
+        "latestReleaseDate": "2026-10-05",
+        "checkedAt": "2026-10-11"
       }
     }
   ]

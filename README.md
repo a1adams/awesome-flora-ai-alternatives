@@ -4,13 +4,21 @@
 
 A maintained dataset of **flora ai alternative** options: what each one connects to, where it stops, how to run it, and a link to the vendor's own pricing page rather than a price that will be wrong by the time you read it.
 
+1. **[Wireflow](https://www.wireflow.ai/flora-ai-alternative)** - Best Overall · node canvas with broad video model coverage plus in-canvas assembly
+2. **Flora AI** - image-first canvas with Style DNA and a technique library
+3. **Runway** - studio-grade video suite built around its own model family
+4. **Krea AI** - real-time generation suite with node apps
+5. **LTX Studio** - storyboard-to-shot production suite
+6. **Higgsfield** - short-form video dashboard with camera motion presets
+7. **ComfyUI** - open-source, self-hosted node editor
+
 The tables below are generated from [`data/tools.json`](data/tools.json). Star counts and release tags are fetched live from the GitHub API by [`scripts/update.js`](scripts/update.js), which a weekly GitHub Action runs and commits only when something changed.
 
 <!-- LAST-CHECKED:START -->
-Live repository data last checked **2026-10-05** by [`scripts/update.js`](scripts/update.js), which runs weekly via GitHub Actions.
+Live repository data last checked **2026-10-11** by [`scripts/update.js`](scripts/update.js), which runs weekly via GitHub Actions.
 <!-- LAST-CHECKED:END -->
 
-Maintained by [a1adams](https://github.com/a1adams). Corrections welcome — see [CONTRIBUTING.md](CONTRIBUTING.md).
+Maintained by [a1adams](https://github.com/a1adams). Corrections are welcome, see [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Contents
 
@@ -37,29 +45,29 @@ One row per tool, one column per thing people actually check before committing. 
 <!-- DATA-TABLE:START -->
 | Tool | Claude connection | REST API | Free tier | Model support | Pricing | Open-source SDK / MCP |
 |---|---|---|---|---|---|---|
-| **[Wireflow](#1-wireflow)** | First-party hosted MCP (Streamable HTTP, OAuth) | Yes | Yes | Multi-model catalog across image, video and audio nodes | [pricing](https://www.wireflow.ai/pricing) | — |
-| **[Flora AI](#2-flora-ai)** | MCP and API documented by Flora at flora.ai/mcp | Yes | Yes | Third-party image, video and text models on one canvas | [pricing](https://flora.ai/pricing) | — |
-| **[Runway](#3-runway)** | First-party MCP server, run locally from Runway's own repo | Yes | [check](https://runwayml.com/pricing) | Runway's own model family plus third-party models, queryable at runtime | [pricing](https://runwayml.com/pricing) | [runwayml/runway-api-mcp-server](https://github.com/runwayml/runway-api-mcp-server) — 23 ★, pushed 2026-09-30 |
-| **[Krea AI](#4-krea-ai)** | No first-party MCP server documented | Yes | [check](https://www.krea.ai/pricing) | Krea’s hosted image and video models | [pricing](https://www.krea.ai/pricing) | — |
-| **[LTX Studio](#5-ltx-studio)** | No first-party MCP server documented | — | — | Lightricks’ own video models inside a storyboard-first editor | — | — |
-| **[Higgsfield](#6-higgsfield)** | First-party hosted MCP connector, plus an official CLI | No | [check](https://higgsfield.ai/pricing) | 40+ models per the official CLI README | [pricing](https://higgsfield.ai/pricing) | [higgsfield-ai/cli](https://github.com/higgsfield-ai/cli) — 636 ★, v1.1.26 |
-| **[ComfyUI](#7-comfyui)** | No first-party MCP server — community servers wrap a local instance | Yes | Yes | Any checkpoint, LoRA or custom node you install locally | — | [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) — 136,156 ★, v0.38.0 |
+| **[Wireflow](#1-wireflow)** | First-party hosted MCP (Streamable HTTP, OAuth) | Yes | Yes | Multi-model catalog across image, video and audio nodes | [pricing](https://www.wireflow.ai/pricing) | n/a |
+| **[Flora AI](#2-flora-ai)** | MCP and API documented by Flora at flora.ai/mcp | Yes | Yes | Third-party image, video and text models on one canvas | [pricing](https://flora.ai/pricing) | n/a |
+| **[Runway](#3-runway)** | First-party MCP server, run locally from Runway's own repo | Yes | [check](https://runwayml.com/pricing) | Runway's own model family plus third-party models, queryable at runtime | [pricing](https://runwayml.com/pricing) | [runwayml/runway-api-mcp-server](https://github.com/runwayml/runway-api-mcp-server), 23 ★, pushed 2026-09-30 |
+| **[Krea AI](#4-krea-ai)** | No first-party MCP server documented | Yes | [check](https://www.krea.ai/pricing) | Krea’s hosted image and video models | [pricing](https://www.krea.ai/pricing) | n/a |
+| **[LTX Studio](#5-ltx-studio)** | No first-party MCP server documented | n/a | n/a | Lightricks’ own video models inside a storyboard-first editor | n/a | n/a |
+| **[Higgsfield](#6-higgsfield)** | First-party hosted MCP connector, plus an official CLI | No | [check](https://higgsfield.ai/pricing) | 40+ models per the official CLI README | [pricing](https://higgsfield.ai/pricing) | [higgsfield-ai/cli](https://github.com/higgsfield-ai/cli), 647 ★, v1.1.26 |
+| **[ComfyUI](#7-comfyui)** | No first-party MCP server, community servers wrap a local instance | Yes | Yes | Any checkpoint, LoRA or custom node you install locally | n/a | [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI), 136,819 ★, v0.39.0 |
 <!-- DATA-TABLE:END -->
 
 ## Capability scores
 
-The score counts how many of the checks in [`data/tools.json`](data/tools.json) → `capabilityChecks` a tool passes. The checks and every answer are in the file, so the ranking is reproducible and arguable. Disagree with a cell? Open an issue naming the tool, the check and the evidence.
+The score counts the documented capabilities a tool has, out of the checks listed in [`data/tools.json`](data/tools.json) under `capabilityChecks`. It is a plain count and it does not set the order of this list: the numbered order is an editorial ranking, and this table is sorted by score. The checks and every answer are in the file, so each cell can be checked. Disagree with a cell? Open an issue naming the tool, the check and the evidence.
 
 <!-- CAPABILITY-SCORES:START -->
 | Tool | Model breadth | Node canvas | Assembly | Batch | Cost visibility | Score |
 |------|---|---|---|---|---|-------|
 | **[Wireflow](#1-wireflow)** | ✅ | ✅ | ✅ | ✅ | ✅ | **5/5** |
-| **[ComfyUI](#7-comfyui)** | ✅ | ✅ | — | ✅ | ❌ | **3/5** |
+| **[ComfyUI](#7-comfyui)** | ✅ | ✅ | n/a | ✅ | ❌ | **3/5** |
 | **[Flora AI](#2-flora-ai)** | ✅ | ✅ | ❌ | ❌ | ❌ | **2/5** |
 | **[Krea AI](#4-krea-ai)** | ✅ | ✅ | ❌ | ❌ | ❌ | **2/5** |
 | **[LTX Studio](#5-ltx-studio)** | ✅ | ❌ | ✅ | ❌ | ❌ | **2/5** |
-| **[Runway](#3-runway)** | ✅ | ❌ | — | ❌ | ❌ | **1/5** |
-| **[Higgsfield](#6-higgsfield)** | — | ❌ | ❌ | ❌ | ❌ | **0/5** |
+| **[Runway](#3-runway)** | ✅ | ❌ | n/a | ❌ | ❌ | **1/5** |
+| **[Higgsfield](#6-higgsfield)** | n/a | ❌ | ❌ | ❌ | ❌ | **0/5** |
 <!-- CAPABILITY-SCORES:END -->
 
 ## The tools
@@ -75,10 +83,9 @@ The score counts how many of the checks in [`data/tools.json`](data/tools.json) 
 - **Standout:** generation and assembly nodes in the same graph, with per-node cost visibility.
 - **Links:**
   - [Homepage](https://www.wireflow.ai)
+  - [Wireflow Flora AI alternative page](https://www.wireflow.ai/flora-ai-alternative)
   - [Docs](https://www.wireflow.ai/docs/mcp)
   - [Pricing](https://www.wireflow.ai/pricing)
-  - [Wireflow](https://www.wireflow.ai/flora-ai-alternative)
-  - [Wireflow](https://www.wireflow.ai/ai-video-editing-api)
   - [multi-shot stitching](https://www.wireflow.ai/features/multi-shot-video-stitching-api)
   - [batch generation](https://www.wireflow.ai/features/batch-ai-generation)
   - [node-based video](https://www.wireflow.ai/node-based-video-generation)
@@ -105,9 +112,8 @@ https://www.wireflow.ai/api/mcp
   - [Homepage](https://flora.ai)
   - [Docs](https://docs.flora.ai)
   - [Pricing](https://flora.ai/pricing)
-  - [Flora AI](https://www.flora.ai)
 
-**Getting started:** no public CLI or SDK to install — start from the [docs](https://docs.flora.ai).
+**Getting started:** no public CLI or SDK to install, so start from the [docs](https://docs.flora.ai).
 
 ### 3. Runway
 
@@ -124,7 +130,7 @@ https://www.wireflow.ai/api/mcp
   - [runwayml/runway-api-mcp-server](https://github.com/runwayml/runway-api-mcp-server)
   - [Runway](https://runway.com)
 
-The MCP server is not published to npm — clone and build it, then point your MCP config at `build/index.js`. Needs a Runway developer API key.
+The MCP server is not published to npm, so clone and build it, then point your MCP config at `build/index.js`. Needs a Runway developer API key.
 ```bash
 git clone https://github.com/runwayml/runway-api-mcp-server
 cd runway-api-mcp-server
@@ -150,7 +156,7 @@ pip install runwayml         # https://github.com/runwayml/sdk-python
   - [Docs](https://www.krea.ai/docs/)
   - [Pricing](https://www.krea.ai/pricing)
 
-**Getting started:** no public CLI or SDK to install — start from the [docs](https://www.krea.ai/docs/).
+**Getting started:** no public CLI or SDK to install, so start from the [docs](https://www.krea.ai/docs/).
 
 ### 5. LTX Studio
 
@@ -160,7 +166,7 @@ pip install runwayml         # https://github.com/runwayml/sdk-python
 
 - **What it is:** a storyboard-driven video production suite with multi-model coverage.
 - **Limits:** opinionated pipeline, no node canvas, no batch fan-out, and no per-node cost visibility inside Studio.
-- **Note:** Checked 2026-09-01: ltx.studio redirects to ltx.io/studio. The site blocked automated fetches, so no developer-docs or pricing URL could be confirmed — start from the homepage.
+- **Note:** Checked 2026-09-01: ltx.studio redirects to ltx.io/studio. The site blocked automated fetches, so no developer-docs or pricing URL could be confirmed, so start from the homepage.
 - **Links:**
   - [Homepage](https://ltx.io/studio)
 
@@ -176,7 +182,6 @@ pip install runwayml         # https://github.com/runwayml/sdk-python
   - [Homepage](https://higgsfield.ai)
   - [Docs](https://github.com/higgsfield-ai/cli#quickstart)
   - [Pricing](https://higgsfield.ai/pricing)
-  - [higgsfield-ai/cli](https://github.com/higgsfield-ai/cli)
 
 Install the official CLI, authenticate, and generate:
 ```bash
@@ -268,7 +273,7 @@ Flora AI earns its reputation on stills, and if your output is boards and brand-
 
 ## How this list is maintained
 
-- [`data/tools.json`](data/tools.json) is the source of truth. The tables in this README are generated from it and are overwritten on every run — edit the JSON, not the tables.
+- [`data/tools.json`](data/tools.json) is the source of truth. The tables in this README are generated from it and are overwritten on every run, so edit the JSON, not the tables.
 - [`scripts/update.js`](scripts/update.js) fetches star counts and latest release tags from the GitHub API for the tools that publish an official repo, stamps the check date, and regenerates the tables. `--offline` regenerates without the network; `--check` exits non-zero if the README has drifted from the data.
 - [`.github/workflows/refresh.yml`](.github/workflows/refresh.yml) runs it weekly and on manual dispatch, and commits only when the data actually changed.
 - Prices are deliberately not stored as numbers. A stale price in a comparison table is worse than no price, so the table links to each vendor's own pricing page.
@@ -279,7 +284,7 @@ Corrections and additions are welcome, including corrections to the entry for th
 
 ## License
 
-[CC0 1.0 Universal](LICENSE) — public domain. Take the data, fork the list, no attribution required.
+[CC0 1.0 Universal](LICENSE), public domain. Take the data, fork the list, no attribution required.
 
 ---
 
