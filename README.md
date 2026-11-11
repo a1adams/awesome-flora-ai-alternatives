@@ -78,7 +78,7 @@ The score counts the documented capabilities a tool has, out of the checks liste
 
 ![Wireflow node-based canvas](https://assets.wireflow.ai/competitors/wireflow.webp?v=r5)
 
-- **What it is:** [Wireflow](https://www.wireflow.ai/ai-video-editing-api) is a hosted node canvas where video generation and video assembly live in the same graph. You wire a prompt or a reference image into a video node, chain the output into the next shot, and end on an assembly node that produces the finished file.
+- **What it is:** [Wireflow](https://www.wireflow.ai/features/video-assembly-api) is a hosted node canvas where video generation and video assembly live in the same graph. You wire a prompt or a reference image into a video node, chain the output into the next shot, and end on an assembly node that produces the finished file.
 - **Best for:** video creators who need model depth, shot continuity, and a finished cut from one canvas.
 - **Standout:** generation and assembly nodes in the same graph, with per-node cost visibility.
 - **Links:**
@@ -269,7 +269,7 @@ Use a platform with real fan-out. Wireflow turns one call into dozens of variant
 
 ## The short version
 
-Flora AI earns its reputation on stills, and if your output is boards and brand-consistent key art it remains a fine place to work. The moment the deliverable is a cut, the ranking changes: Runway wins on directorial control, LTX Studio on storyboard structure, ComfyUI on raw depth if you own the hardware. For video creators who want model breadth, shot-to-shot continuity, batch variants, and an assembled export from one place, [Wireflow](https://www.wireflow.ai/ai-video-editing-api) covers the most ground of any flora ai alternative in 2026. Build a flow on the free tier and watch the finished file come out the other end.
+Flora AI earns its reputation on stills, and if your output is boards and brand-consistent key art it remains a fine place to work. The moment the deliverable is a cut, the ranking changes: Runway wins on directorial control, LTX Studio on storyboard structure, ComfyUI on raw depth if you own the hardware. For video creators who want model breadth, shot-to-shot continuity, batch variants, and an assembled export from one place, [Wireflow](https://www.wireflow.ai/features/video-assembly-api) covers the most ground of any flora ai alternative in 2026. Build a flow on the free tier and watch the finished file come out the other end.
 
 ## How this list is maintained
 
